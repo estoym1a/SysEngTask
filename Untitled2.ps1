@@ -1,0 +1,1 @@
+﻿$path = "$env:USERPROFILE\Desktop\$env:USERNAME.txt"; $env:USERNAME | Out-File $path; explorer.exe /select,$path
